@@ -23,9 +23,13 @@ public class SimpleCalculator {
 	}
 	
 	public void inc(int x) {
-  
-			result +=x;
-	}
+		  
+		result +=x;
+}
+	public void dinc(int x) {
+		  
+		result -=x;
+}
 	
 	public int getResult() {
 		return result;
